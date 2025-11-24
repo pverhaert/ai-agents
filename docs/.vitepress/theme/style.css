@@ -1,0 +1,131 @@
+:root {
+    --vp-c-brand-1: #cc4221;
+    --vp-c-brand-2: #d56144;
+    --vp-c-brand-3: #f5927c;
+    --vp-c-brand-soft: rgba(255, 115, 86, 0.21);
+
+    --vp-home-hero-name-background: -webkit-linear-gradient(
+            120deg,
+            #cc4221 50%,
+            #009cab
+    );
+
+    --vp-home-hero-image-background-image: linear-gradient(
+            -45deg,
+            #cc4221 50%,
+            #009cab 50%
+    );
+
+    /*--vp-custom-block-tip-border: rgba(0, 0, 0, 0.68);*/
+}
+
+h1, h2, h3, h4 {
+    color: #009cab;
+}
+
+ul, ol {
+    line-height: 1.3rem;
+}
+
+main img {
+    border: 1px solid rgba(0, 0, 0, .3);
+    margin-top: .3rem;
+}
+
+.VPNavBarMenuGroup a[href="#!"] {
+    color: #009baa;
+    &::after {
+        content: " (**)";
+    }
+
+    &:hover {
+        color: #868686;
+    }
+}
+
+.VPLink.link.active {
+    background-color: rgba(255, 115, 86, 0.1) !important;
+}
+
+.tip.custom-block, .warning.custom-block, .danger.custom-block, .info.custom-block, .details.custom-block {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.danger.custom-block {
+    border: solid 1px var(--vp-c-danger-1) !important;
+}
+
+.danger .custom-block-title {
+    color: #bb363a;
+}
+
+.info.custom-block {
+    border: solid 1px var(--vp-c-text-3) !important;
+}
+
+.tip.custom-block {
+    border: solid 1px #7eb17b !important;
+    background-color: #68ff6424 !important;
+}
+
+.tip .custom-block-title {
+    color: #3a6b37;
+}
+
+.info.custom-block, .details.custom-block {
+    border: solid 1px var(--vp-c-text-3) !important;
+}
+
+.info .custom-block-title {
+    color: var(--vp-c-text-2);
+}
+
+
+.warning.custom-block {
+    border: solid 1px var(--vp-c-warning-3) !important;
+}
+
+.warning .custom-block-title {
+    color: var(--vp-c-warning-1);
+}
+
+.custom-block-title {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 0;
+}
+
+/*https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/components/VPDoc.vue*/
+
+.VPDoc {
+    padding-bottom: 0 !important;
+}
+
+.VPDoc h2 {
+    margin: 1rem 0;
+}
+
+.VPDoc.has-aside .container {
+    /*outline: 3px solid red;*/
+}
+
+.VPDoc.has-aside .content-container {
+    max-width: 100% !important;
+    /*border: 1px solid #000;*/
+    padding-bottom: 0 !important;
+}
+
+.VPDocFooter {
+    margin-top: 64px;
+}
+
+@media (min-width: 1000px) {
+    .VPDoc:not(.has-sidebar) .content {
+        max-width: 100% !important;
+    }
+
+    .VPDoc:not(.has-sidebar) .container {
+        max-width: 1500px !important;
+    }
+}
+
