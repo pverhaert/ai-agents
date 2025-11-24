@@ -17,13 +17,22 @@ export default defineConfig({
             {text: 'Home', link: '/'},
             {
                 text: 'Introduction', items: [
-                    {text: 'From GenAI to AI Agents', link: '/introduction/'}
+                    {text: 'From GenAI to AI Agents', link: '/introduction/'},
+                    {text: 'AI Models', link: '/introduction/models'},
+                    {text: 'Benchmarks', link: '/introduction/benchmarks'},
+                    {
+                        text: 'Benchmarks', items: [
+                            {text: 'Intro', link: '/introduction/benchmarks_intro'},
+                            {text: '🏆 LM Arena (Chatbot Arena)', link: '/introduction/lmarena.md'},
+                            {text: '🧠 AI IQ Test', link: '/introduction/iqtest.md'},
+
+                        ]
+                    }
                 ]
             },
             {text: 'Introduction', link: '/introduction'},
-            {text: 'AI Models', link: '/models'},
+
             {text: 'Use Cases', link: '/use-cases'},
-            {text: 'Benchmarks', link: '/benchmarks'}
         ],
 
         /*sidebar: [

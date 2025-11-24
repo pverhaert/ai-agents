@@ -1,12 +1,18 @@
 # From GenAI to AI Agents
 
+| Feature         | Generative AI     | AI Workflow           | AI Agent              |
+|:----------------|:------------------|:----------------------|:----------------------|
+| **Human Input** | A specific prompt | A pre-defined process | A high-level goal     |
+| **Role of AI**  | Responds to input | Follows fixed steps   | Makes decisions       |
+| **Key Ability** | Generate & edit   | Execute a sequence    | Reason, act & iterate |
+
 ::: tip
-All of these materials were generated with [NotebookLM](https://notebooklm.google.com), 
+All of these materials below were generated with [NotebookLM](https://notebooklm.google.com),
 based on the YouTube video [“AI Agents, Clearly Explained”](https://www.youtube.com/watch?v=FwOTs4UxQS4).
 :::
 
-
 ## Video Overview
+
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 2rem 0;">
   <iframe 
     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
@@ -20,8 +26,8 @@ based on the YouTube video [“AI Agents, Clearly Explained”](https://www.yout
 
 ## Infographic
 
-<a href="./index/infographic_large.jpg" target="_blank">
-  <img src="./index/infographic_large.jpg" alt="Infographic" />
+<a href="/introduction/infographic_large.jpg" target="_blank">
+  <img src="/introduction/infographic_large.jpg" alt="Infographic" />
 </a>
 
 ## Podcast
@@ -30,7 +36,7 @@ based on the YouTube video [“AI Agents, Clearly Explained”](https://www.yout
 
 ## Slide Presentation
 
-<a href="./index/slide_presentation.pdf" target="_blank">
+<a href="/introduction/slide_presentation.pdf" target="_blank">
   <img src="./index/ReAct.webp" alt="ReAct" />
 </a>
 

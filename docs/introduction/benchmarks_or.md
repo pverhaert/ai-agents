@@ -1,20 +1,18 @@
 # Benchmarks & Testing
 
-Understanding AI model performance through standardized benchmarks and comprehensive testing platforms helps you make informed decisions about which models to use for your specific needs.
+Understanding AI model performance through standardized benchmarks and comprehensive testing platforms helps you make
+informed decisions about which models to use for your specific needs.
 
-## Overview
-
-AI benchmarks provide objective measurements of model capabilities across various tasks. This guide covers the most important benchmarking platforms and testing methodologies in the AI landscape.
-
----
+AI benchmarks provide objective measurements of model capabilities across various tasks. This guide covers the most
+important benchmarking platforms and testing methodologies in the AI landscape.
 
 ## 🏆 LM Arena (Chatbot Arena)
 
-<div class="benchmark-card">
 
 ### What is LM Arena?
 
-**LM Arena**, also known as **Chatbot Arena**, is the leading crowdsourced platform for evaluating AI language models through blind testing. Operated by LMSYS (Large Model Systems Organization), it uses human preferences to rank models.
+**LM Arena**, also known as **Chatbot Arena**, is the leading crowdsourced platform for evaluating AI language models
+through blind testing. Operated by LMSYS (Large Model Systems Organization), it uses human preferences to rank models.
 
 ### How It Works
 
@@ -32,15 +30,6 @@ AI benchmarks provide objective measurements of model capabilities across variou
 - **Large Sample Size**: Hundreds of thousands of user votes
 - **Regular Updates**: New models added frequently
 
-### Current Top Models (as of 2025)
-
-The leaderboard typically features models like:
-- GPT-4 Turbo
-- Claude 3 Opus
-- Gemini Ultra/Pro
-- Grok-2
-- And various open-source models
-
 ### Why It Matters
 
 - **Real-World Performance**: More relevant than synthetic benchmarks
@@ -51,36 +40,36 @@ The leaderboard typically features models like:
 
 ### Categories Tested
 
-| Category | Description |
-|----------|-------------|
-| **Overall** | General performance across all tasks |
-| **Coding** | Programming and technical tasks |
-| **Creative Writing** | Stories, poetry, and creative content |
+| Category                  | Description                            |
+|---------------------------|----------------------------------------|
+| **Overall**               | General performance across all tasks   |
+| **Coding**                | Programming and technical tasks        |
+| **Creative Writing**      | Stories, poetry, and creative content  |
 | **Instruction Following** | Ability to follow complex instructions |
-| **Hard Prompts** | Challenging edge cases |
-| **Specific Styles** | Different writing styles and tones |
+| **Hard Prompts**          | Challenging edge cases                 |
+| **Specific Styles**       | Different writing styles and tones     |
 
 ### Participate & Learn
 
-🔗 **Visit LM Arena**: [https://chat.lmsys.org](https://chat.lmsys.org)
+- 🔗 **LM Arena**: [https://lmarena.ai/](https://lmarena.ai/)
+- 🔗 **LM Arena Leaderboard**: [https://lmarena.ai/leaderboard](https://lmarena.ai/leaderboard)
 
 You can:
+
 - Vote on model responses to contribute to rankings
 - View the current leaderboard
 - Test models yourself in the arena
 - Access the research and methodology
 
-</div>
+![LMArena](./benchmarks/LMArena.webp)
 
----
 
 ## 🧠 AI IQ Test - Tracking AI
 
-<div class="benchmark-card">
-
 ### What is Tracking AI?
 
-**Tracking AI** provides comprehensive AI IQ testing and performance tracking across multiple dimensions of intelligence and capability. It offers a standardized way to measure AI model performance.
+**Tracking AI** provides comprehensive AI IQ testing and performance tracking across multiple dimensions of intelligence
+and capability. It offers a standardized way to measure AI model performance.
 
 ### Features
 
@@ -95,29 +84,29 @@ You can:
 The platform evaluates AI models across various dimensions:
 
 1. **Reasoning & Logic**
-   - Deductive reasoning
-   - Pattern recognition
-   - Problem-solving
+    - Deductive reasoning
+    - Pattern recognition
+    - Problem-solving
 
 2. **Language Understanding**
-   - Reading comprehension
-   - Context awareness
-   - Nuanced interpretation
+    - Reading comprehension
+    - Context awareness
+    - Nuanced interpretation
 
 3. **Mathematical Ability**
-   - Calculation accuracy
-   - Word problems
-   - Abstract mathematics
+    - Calculation accuracy
+    - Word problems
+    - Abstract mathematics
 
 4. **Creativity & Innovation**
-   - Novel solutions
-   - Creative writing
-   - Out-of-box thinking
+    - Novel solutions
+    - Creative writing
+    - Out-of-box thinking
 
 5. **Common Sense**
-   - Real-world knowledge
-   - Practical reasoning
-   - Social understanding
+    - Real-world knowledge
+    - Practical reasoning
+    - Social understanding
 
 ### Why Use Tracking AI?
 
@@ -129,18 +118,16 @@ The platform evaluates AI models across various dimensions:
 
 ### Access the Platform
 
-🔗 **Visit Tracking AI**: [https://www.trackingai.org/home](https://www.trackingai.org/home)
+- 🔗 **Tracking AI**: [https://www.trackingai.org/home](https://www.trackingai.org/home)
 
 Explore:
+
 - Current model rankings
 - Detailed performance metrics
 - Historical performance data
 - Testing methodology
 - Research papers and insights
 
-</div>
-
----
 
 ## Other Important Benchmarks
 
@@ -149,21 +136,25 @@ Explore:
 <div class="info-box">
 
 **MMLU (Massive Multitask Language Understanding)**
+
 - Tests knowledge across 57 subjects
 - Covers STEM, humanities, social sciences, and more
 - Standard academic knowledge benchmark
 
 **HumanEval**
+
 - Evaluates coding capabilities
 - Python programming problems
 - Measures functional correctness
 
 **GSM8K**
+
 - Grade school math problems
 - Tests mathematical reasoning
 - Word problems and calculations
 
 **BBH (Big Bench Hard)**
+
 - Challenging reasoning tasks
 - Tests model limitations
 - Future-oriented evaluation
@@ -175,16 +166,19 @@ Explore:
 <div class="info-box">
 
 **HELM (Holistic Evaluation of Language Models)**
+
 - Comprehensive evaluation framework
 - Multiple dimensions: accuracy, robustness, fairness
 - Stanford research project
 
 **MT-Bench**
+
 - Multi-turn conversation evaluation
 - Tests complex dialogue abilities
 - Instruction following over multiple turns
 
 **AlpacaEval**
+
 - Automated evaluation using LLMs as judges
 - Cost-effective at scale
 - Correlates well with human preferences
@@ -222,15 +216,15 @@ Explore:
 
 When evaluating AI models, consider:
 
-| Factor | Description | How to Measure |
-|--------|-------------|----------------|
-| **Accuracy** | Correctness of responses | Benchmark scores, human eval |
-| **Speed** | Response generation time | Latency tests |
-| **Consistency** | Reliability across queries | Multiple test runs |
-| **Reasoning** | Logical thinking ability | Chain-of-thought tests |
-| **Creativity** | Novel output generation | Human preference |
-| **Safety** | Harmful output avoidance | Red teaming, adversarial tests |
-| **Context** | Long-range understanding | Long-context benchmarks |
+| Factor          | Description                | How to Measure                 |
+|-----------------|----------------------------|--------------------------------|
+| **Accuracy**    | Correctness of responses   | Benchmark scores, human eval   |
+| **Speed**       | Response generation time   | Latency tests                  |
+| **Consistency** | Reliability across queries | Multiple test runs             |
+| **Reasoning**   | Logical thinking ability   | Chain-of-thought tests         |
+| **Creativity**  | Novel output generation    | Human preference               |
+| **Safety**      | Harmful output avoidance   | Red teaming, adversarial tests |
+| **Context**     | Long-range understanding   | Long-context benchmarks        |
 
 ---
 
@@ -260,22 +254,8 @@ The AI benchmark landscape evolves rapidly:
 - [OpenLLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard) - Open source models
 - [BIG-bench](https://github.com/google/BIG-bench) - Beyond the Imitation Game
 
----
-
-## What's Next?
-
-- Explore [Popular AI Models](/models) to see top performers
-- Learn about [Use Cases](/use-cases) for practical applications
-- Discover [AI Browsers](/browsers) with integrated AI features
 
 <style>
-.benchmark-card {
-  padding: 1.5rem;
-  margin: 1.5rem 0;
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 8px;
-  background: var(--vp-c-bg-soft);
-}
 
 .info-box {
   padding: 1.25rem;

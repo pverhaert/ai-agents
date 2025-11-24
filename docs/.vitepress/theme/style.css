@@ -32,6 +32,29 @@ main img {
     margin-top: .3rem;
 }
 
+.model-card {
+    padding: 1.5rem;
+    margin: 1rem 0;
+    border: 1px solid var(--vp-c-divider);
+    border-radius: 8px;
+    background: var(--vp-c-bg-soft);
+}
+
+.model-card strong {
+    color: var(--vp-c-brand-1);
+}
+
+.model-icon {
+    width: 48px;
+    height: 48px;
+    float: right;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    border: none !important;
+    border-radius: 8px;
+    object-fit: contain;
+}
+
 .VPNavBarMenuGroup a[href="#!"] {
     color: #009baa;
     &::after {
@@ -118,6 +141,30 @@ main img {
 .VPDocFooter {
     margin-top: 64px;
 }
+
+/**
+ * MenuGroup > Title
+ * -------------------------------------------------------------------------- */
+
+.VPMenuGroup {
+    .title {
+        color: black;
+        font-style: italic;
+    }
+
+    .VPMenuLink {
+        padding-left: 1rem;
+    }
+}
+
+.dark {
+    .VPMenuGroup {
+        .title {
+            color: white;
+        }
+    }
+}
+
 
 @media (min-width: 1000px) {
     .VPDoc:not(.has-sidebar) .content {
