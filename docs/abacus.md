@@ -405,14 +405,8 @@ Abacus.AI continues to evolve with:
 | **AutoML** | ✅ Yes | ❌ No | ❌ No | ❌ No |
 | **One Platform** | ✅ Complete | ❌ API only | ⚠️ AWS suite | ⚠️ Azure suite |
 
----
 
-## What's Next?
 
-- Explore [Use Cases](/use-cases) to see AI in action
-- Compare [AI Models](/models) available through Abacus.AI
-- Check [Benchmarks](/benchmarks) to understand model performance
-- Learn about [AI Browsers](/browsers) for development tools
 
 ---
 

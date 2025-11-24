@@ -4,13 +4,13 @@ import {defineConfig} from 'vitepress'
 export default defineConfig({
     title: "AI Agents",
     description: "A curated guide to AI tools, browsers, and agents",
+    ignoreDeadLinks: true,
 
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         logo: '/favicon.svg',
         lastUpdated: true,
         cleanUrls: true,
-        ignoreDeadLinks: true,
         externalLinkIcon: true,
 
         nav: [

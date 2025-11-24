@@ -469,12 +469,6 @@ result = crew.kickoff()
 
 ---
 
-## What's Next?
-
-- Explore the [Abacus.AI Platform](/abacus) for enterprise solutions
-- Review [AI Benchmarks](/benchmarks) to compare tools
-- Check out [Popular AI Models](/models) powering these use cases
-
 <style>
 .use-case-card {
   padding: 1.5rem;

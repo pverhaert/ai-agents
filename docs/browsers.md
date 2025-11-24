@@ -196,12 +196,6 @@ The integration of AI into browsers is just beginning:
 
 ---
 
-## What's Next?
-
-- Learn about [AI Model Benchmarks](/benchmarks) to understand performance
-- Explore [Use Cases](/use-cases) for practical AI applications
-- Discover the [Abacus.AI Platform](/abacus) for enterprise solutions
-
 <style>
 .browser-card {
   padding: 1.5rem;
