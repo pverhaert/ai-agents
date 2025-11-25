@@ -14,7 +14,7 @@ export default defineConfig({
         externalLinkIcon: true,
 
         nav: [
-            {text: 'Home (*)', link: '/'},
+            {text: 'Home', link: '/'},
             {
                 text: 'Introduction', items: [
                     {text: 'From GenAI to AI Agents', link: '/introduction/'},
@@ -46,30 +46,6 @@ export default defineConfig({
             },
             {text: 'Abacus (ChatLLM)', link: '/abacus'},
         ],
-
-        /*sidebar: [
-            {
-                text: 'Getting Started',
-                items: [
-                    {text: 'Home', link: '/'}
-                ]
-            },
-            {
-                text: 'AI Tools',
-                items: [
-                    {text: 'Popular AI Models', link: '/models'},
-                    {text: 'AI Browsers', link: '/browsers'},
-                    {text: 'Benchmarks & Testing', link: '/benchmarks'}
-                ]
-            },
-            {
-                text: 'Applications',
-                items: [
-                    {text: 'Use Cases', link: '/use-cases'},
-                    {text: 'Abacus.AI Platform', link: '/abacus'}
-                ]
-            }
-        ],*/
 
         outline: {
             level: 'deep'

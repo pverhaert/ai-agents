@@ -101,6 +101,14 @@ Generate CSS properties for my webdesign courses.
 
 ![CSS Shades Generator](./aistudio/css_shades.webp)
 
+### Fast Image Conversion &amp; Editing Tool
+
+Generate CSS properties for my webdesign courses.
+
+🔗 [Visit website](https://itf-webp.netlify.app/)
+
+![Image convertor](./aistudio/image_convertor.webp)
+
 ### Internet Radio
 
 A radio app build around online radio stations.
