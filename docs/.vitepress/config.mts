@@ -23,7 +23,7 @@ export default defineConfig({
                     {text: 'AI Browsers', link: '/introduction/browsers'},
                     {
                         text: 'Benchmarks', items: [
-                            {text: 'Intro', link: '/introduction/benchmarks_intro'},
+                            {text: 'How We Test Intelligence', link: '/introduction/benchmarks_intro'},
                             {text: '🧠 AI IQ Test', link: '/introduction/iqtest.md'},
                             {text: '🏆 LM Arena (Chatbot Arena)', link: '/introduction/lmarena.md'},
 
@@ -32,7 +32,7 @@ export default defineConfig({
                 ]
             },
             {text: 'Use Cases', link: '/use-cases'},
-            {text: 'Chat LLM (Abacus)', link: '/abacus'},
+            {text: 'Abacus (ChatLLM)', link: '/abacus'},
         ],
 
         /*sidebar: [

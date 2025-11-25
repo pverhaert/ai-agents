@@ -1,438 +1,112 @@
-# Abacus.AI Platform
+### Abacus.AI (ChatLLM)
 
-Discover **Abacus.AI** - a comprehensive, enterprise-grade AI platform that brings together cutting-edge AI capabilities, model deployment, and intelligent automation in one unified solution.
+<div class="model-card">
 
-## Overview
+<img src="https://abacus.ai/favicon.ico" alt="Abacus.AI" class="model-icon" />
 
-Abacus.AI is an all-in-one AI platform designed to democratize AI development and deployment for businesses of all sizes. It combines state-of-the-art language models, custom model training, and enterprise-ready deployment tools.
+**Developer**: Abacus.AI
 
----
+**Description**: Abacus.AI (via its ChatLLM platform) acts as a "Unified Intelligence Hub." Instead of choosing just one
+AI provider, Abacus gives you access to all the top-tier models in a single dashboard. It is designed for users who want
+the flexibility to switch between the best minds in AI without managing multiple accounts.
 
-## 🚀 What is Abacus.AI?
+**Key Features**:
 
-<div class="platform-card">
+- **Multi-Model Access**: Use OpenAI's GPT-4o, Anthropic's Claude 3.5, Google's Gemini, and Meta's Llama all from one
+  screen.
+- **Comparison Mode**: Run the exact same prompt on two different AI models side-by-side to see which one gives the
+  better answer.
+- **Unified Subscription**: A single monthly fee covers access to all underlying models, often costing less than a
+  single subscription elsewhere.
+- **Deep Research Agents**: Specialized AI agents that can browse the web and perform complex research tasks.
+- **Team Dashboards**: Allows teams to share prompts, chat histories, and files securely.
 
-**Abacus.AI** is a unified AI platform that enables organizations to:
+**Best For**: Power users who want every model, teams looking to consolidate costs, and users who need to compare AI
+outputs.
 
-- Build and deploy custom AI agents
-- Access multiple leading AI models
-- Train and fine-tune specialized models
-- Integrate AI into existing workflows
-- Scale AI solutions across the enterprise
-- Maintain security and compliance
-
-### Key Value Proposition
-
-Unlike single-purpose AI tools, Abacus.AI provides a **complete AI infrastructure** - from experimentation to production deployment, all within a single platform.
-
-</div>
-
----
-
-## 🎯 Core Capabilities
-
-### 1. **ChatLLM - Multi-Model Chat Interface**
-
-<div class="feature-card">
-
-Access multiple leading AI models through one interface:
-
-- **GPT-4, Claude, Gemini, Llama**: All major models available
-- **Model Comparison**: Test prompts across models simultaneously
-- **Cost Optimization**: Choose the best model for each task
-- **Unified API**: One API for all models
-- **Context Management**: Share context across conversations
-
-**Use Cases**:
-- Compare model outputs for critical tasks
-- Optimize costs by choosing appropriate models
-- Prototype with different models quickly
+🔗 [Visit Abacus.AI](https://abacus.ai/)  
+🔗 [Create an account](https://chatllm.abacus.ai/WrZczXnKpV) (Referrer link)
 
 </div>
 
-### 2. **Custom AI Agents**
+#### Abacus Subscription vs. Others
 
-<div class="feature-card">
+One of the main draws of Abacus.AI is the "bundled" approach. Here is how it compares to buying subscriptions
+individually:
 
-Build specialized AI agents tailored to your needs:
+| Feature              | Abacus.AI (ChatLLM)               | Standard (ChatGPT + Claude + Gemini)              |
+|:---------------------|:----------------------------------|:--------------------------------------------------|
+| **Model Access**     | **All Major Models** in one place | **Single Family** (Only OpenAI OR Only Anthropic) |
+| **Estimated Cost**   | $10 or $20 / month total          | ~$20 / month **per service**                      |
+| **Login Experience** | One password, one interface       | Three different apps and passwords                |
+| **Flexibility**      | Switch models mid-conversation    | Must copy-paste text between different websites   |
 
-- **Agent Designer**: Visual agent creation interface
-- **Custom Instructions**: Define specific behaviors and knowledge
-- **Tool Integration**: Connect to APIs, databases, and services
-- **Multi-Agent Systems**: Orchestrate multiple agents
-- **Deployment Options**: API, web interface, or embedded
+## What's Included
 
-**Use Cases**:
-- Customer support automation
-- Internal knowledge assistants
-- Specialized research agents
-- Data analysis workflows
+Abacus.AI goes beyond simple text chatting. It functions as a complete generative AI workspace, replacing the need for
+multiple separate subscriptions. Here is a breakdown of the powerful tools included in your account.
 
-</div>
+### Specialized Tools Dashboard
 
-### 3. **Model Training & Fine-Tuning**
+Instead of trying to do everything inside a chat window, Abacus provides dedicated interfaces for specific workflows.
+Whether you need to generate code, analyze a PDF, or humanize AI-written emails to sound more natural, there is a
+specific tool designed to do that job efficiently.
 
-<div class="feature-card">
+![Tools](./abacus/tools.webp)
 
-Train custom models on your data:
+### extensive Chat Models
 
-- **Fine-Tuning**: Adapt models to your domain
-- **Transfer Learning**: Build on existing models
-- **AutoML**: Automated model selection and tuning
-- **Dataset Management**: Upload and manage training data
-- **Model Versioning**: Track model iterations
+The platform integrates over 30 **frontier models**, including the latest versions of Google Gemini, Anthropic Claude,
+and OpenAI GPT.
 
-**Use Cases**:
-- Domain-specific language models
-- Classification and prediction models
-- Custom embedding models
-- Specialized NLP tasks
+* **Why this matters**: Different models are good at different things. You might use Claude for writing a report, but
+  switch to GPT-5 for math or logic within the same conversation. You are never locked into just one "brain."
 
-</div>
+![Chat](./abacus/chat.webp)
 
-### 4. **Enterprise Features**
+### Image Generation Studio
 
-<div class="feature-card">
+Access a library of 15+ top-tier image generation models, including **Flux** and **NanoBanana**.
 
-Built for business requirements:
+* **Context**: You don't need a separate Midjourney or DALL-E subscription. You can generate photorealistic images,
+  logos, or artistic illustrations directly here, switching between models to see which artistic style you prefer.
 
-- **Security & Compliance**: SOC 2, GDPR, HIPAA support
-- **Access Control**: Role-based permissions
-- **Audit Logs**: Complete activity tracking
-- **Data Privacy**: Private model deployment options
-- **SLA Guarantees**: Enterprise support and uptime
-- **Team Collaboration**: Multi-user workspaces
+![Image](./abacus/image.webp)
 
-</div>
+### Video Generation Suite
 
----
+Create video content using 10+ leading video models like **Sora**, **Luma**, **Kling**, and **Seedance**.
 
-## 💼 Use Cases by Industry
+* **Context**: This allows you to turn text prompts or static images into short video clips. It is ideal for creating
+  social media content, marketing assets, or visualizing concepts without needing a camera crew.
 
-### Financial Services
+![Video](./abacus/video.webp)
 
-- **Fraud Detection**: Real-time anomaly detection
-- **Document Processing**: Automated KYC and compliance
-- **Customer Insights**: Sentiment analysis and prediction
-- **Risk Assessment**: AI-powered risk modeling
+### Custom Background Agents
 
-### Healthcare
+You can create custom "Agents" that work for you even when you are asleep.
 
-- **Clinical Documentation**: Automated note generation
-- **Medical Imaging**: AI-assisted diagnosis
-- **Patient Support**: Intelligent chatbots and triage
-- **Research**: Literature review and data analysis
+* **How it works**: You can set these agents to run periodically (e.g., every morning at 8 AM). For example, you could
+  create an agent that searches the web for news about your industry and emails you a summary every day.
 
-### Retail & E-commerce
+![Agents](./abacus/agents.webp)
 
-- **Personalization**: Product recommendations
-- **Customer Service**: Automated support agents
-- **Demand Forecasting**: Inventory optimization
-- **Content Generation**: Product descriptions and marketing
+### Deep Agent (Autonomous AI)
 
-### Manufacturing
+The Deep Agent is a general-purpose assistant capable of multi-step reasoning.
 
-- **Predictive Maintenance**: Equipment failure prediction
-- **Quality Control**: Defect detection
-- **Supply Chain**: Optimization and forecasting
-- **Process Automation**: Intelligent workflows
+* **Context**: Unlike a standard chatbot that just gives advice, the Deep Agent can perform actions. It can browse the
+  web, analyze data, and execute complex instructions to solve problems that require research and planning.
 
----
+![Deep Agent](./abacus/deepagent.webp)
 
-## 🛠️ Platform Components
+### Abacus AI Desktop App
 
-### ChatLLM
+This downloadable application extends the power of AI to your computer desktop.
 
-Access to 30+ leading language models:
-- GPT-4, GPT-3.5 Turbo
-- Claude 3 (Opus, Sonnet, Haiku)
-- Gemini Pro, Gemini Ultra
-- Llama 3, Mistral, and more
-- Open-source models
+1. **For Everyone**: It includes a **Listener tool** that can join your video calls (Zoom, Teams, etc.), transcribe the
+   audio, and generate perfect meeting notes automatically.
+2. **For Developers**: It functions as an **IDE (Integrated Development Environment)**, helping programmers write,
+   debug, and fix code faster.
 
-### AI Agents
-
-Pre-built and custom agents:
-- **Code Assistant**: Programming help and debugging
-- **Research Agent**: Web search and analysis
-- **Data Analyst**: Query and visualize data
-- **Content Creator**: Writing and editing
-- **Custom Agents**: Build your own
-
-### Neural Networks
-
-Deep learning capabilities:
-- **Forecasting**: Time-series prediction
-- **Classification**: Categorization and tagging
-- **Anomaly Detection**: Outlier identification
-- **Personalization**: Recommendation systems
-- **NLP**: Text understanding and generation
-
-### Data & Integration
-
-Connect your data sources:
-- **Databases**: PostgreSQL, MySQL, MongoDB, etc.
-- **Cloud Storage**: S3, GCS, Azure Blob
-- **APIs**: REST, GraphQL integration
-- **Streaming**: Kafka, Kinesis
-- **BI Tools**: Tableau, PowerBI, Looker
-
----
-
-## 🎓 Getting Started
-
-### 1. **Sign Up**
-
-Create your account:
-- Free tier available for experimentation
-- Generous credits for testing
-- No credit card required to start
-
-### 2. **Explore ChatLLM**
-
-Start with the chat interface:
-- Test different models
-- Compare responses
-- Learn prompt engineering
-- Experiment with features
-
-### 3. **Build an Agent**
-
-Create your first custom agent:
-- Use the agent designer
-- Define instructions and behavior
-- Add tools and integrations
-- Test and iterate
-
-### 4. **Deploy**
-
-Take your agent to production:
-- Generate API keys
-- Integrate into applications
-- Monitor performance
-- Scale as needed
-
----
-
-## 💰 Pricing & Plans
-
-### Free Tier
-- Access to select models
-- Limited API calls
-- Basic features
-- Community support
-
-### Pro Plan
-- All models available
-- Increased API limits
-- Advanced features
-- Email support
-
-### Enterprise Plan
-- Custom limits
-- Private model deployment
-- Dedicated support
-- SLA guarantees
-- Custom integrations
-
-*Note: Visit the Abacus.AI website for current pricing details*
-
----
-
-## 🔒 Security & Compliance
-
-### Data Protection
-
-- **Encryption**: At rest and in transit
-- **Isolation**: Tenant data separation
-- **Retention**: Configurable data retention policies
-- **Privacy**: No training on customer data (optional)
-
-### Compliance Certifications
-
-- SOC 2 Type II
-- GDPR Compliant
-- HIPAA Available
-- ISO 27001
-
-### Enterprise Security
-
-- SSO Integration (SAML, OAuth)
-- IP Whitelisting
-- VPC Deployment
-- Audit Logging
-- Role-Based Access Control (RBAC)
-
----
-
-## 📊 Platform Advantages
-
-### All-in-One Solution
-
-| Feature | Abacus.AI | Multiple Tools |
-|---------|-----------|----------------|
-| **Model Access** | 30+ models | Multiple subscriptions |
-| **Training** | Built-in | Separate platform |
-| **Deployment** | Integrated | Additional service |
-| **Management** | Single dashboard | Multiple interfaces |
-| **Cost** | Consolidated | Multiple bills |
-
-### Performance & Reliability
-
-- **99.9% Uptime SLA** (Enterprise)
-- **Global CDN**: Low-latency worldwide
-- **Auto-scaling**: Handle traffic spikes
-- **Monitoring**: Real-time performance metrics
-
----
-
-## 🌟 Why Choose Abacus.AI?
-
-### For Developers
-
-- **Unified API**: Access all models with one integration
-- **Rich Documentation**: Comprehensive guides and examples
-- **SDKs**: Python, JavaScript, and more
-- **Playground**: Test before implementing
-- **Community**: Active developer community
-
-### For Data Scientists
-
-- **AutoML**: Automated model selection
-- **Experiment Tracking**: Compare model versions
-- **Jupyter Integration**: Notebook support
-- **Custom Training**: Full control over models
-- **Deployment**: Easy model deployment
-
-### For Business Leaders
-
-- **ROI**: Reduce AI infrastructure costs
-- **Speed**: Faster time to market
-- **Scalability**: Grow with your needs
-- **Support**: Dedicated enterprise support
-- **Governance**: Compliance and control
-
----
-
-## 🔗 Resources & Links
-
-### Official Resources
-
-🌐 **Website**: [abacus.ai](https://abacus.ai)
-
-📚 **Documentation**: [docs.abacus.ai](https://docs.abacus.ai)
-
-💬 **Community**: [community.abacus.ai](https://community.abacus.ai)
-
-🎓 **Tutorials**: Available on the platform
-
-📧 **Support**: support@abacus.ai
-
-### Quick Links
-
-- [ChatLLM](https://abacus.ai/chatllm) - Multi-model chat interface
-- [Agents](https://abacus.ai/agents) - Custom AI agents
-- [Pricing](https://abacus.ai/pricing) - Plans and pricing
-- [Blog](https://abacus.ai/blog) - Latest updates and insights
-- [API Docs](https://api.abacus.ai) - API reference
-
----
-
-## 🚀 Success Stories
-
-### Case Study: Financial Services
-
-A leading bank used Abacus.AI to:
-- Automate 70% of customer inquiries
-- Reduce fraud detection time by 80%
-- Save $2M annually in operational costs
-
-### Case Study: Healthcare
-
-A hospital network implemented:
-- AI-assisted clinical documentation
-- 50% reduction in documentation time
-- Improved accuracy and compliance
-
-### Case Study: E-commerce
-
-An online retailer achieved:
-- 3x improvement in recommendation relevance
-- 25% increase in conversion rates
-- Automated product description generation
-
----
-
-## 📈 Future Roadmap
-
-Abacus.AI continues to evolve with:
-
-- **More Models**: Latest models added regularly
-- **Enhanced Agents**: More sophisticated agent capabilities
-- **Vertical Solutions**: Industry-specific packages
-- **Advanced Analytics**: Deeper insights and reporting
-- **Edge Deployment**: On-device AI capabilities
-
----
-
-## Getting Help
-
-### Support Options
-
-- **Documentation**: Comprehensive guides and tutorials
-- **Community Forum**: Ask questions and share experiences
-- **Email Support**: support@abacus.ai
-- **Enterprise Support**: Dedicated account managers
-- **Training**: Workshops and certification programs
-
-### Learning Resources
-
-- Video tutorials and webinars
-- Sample projects and templates
-- Best practices guides
-- API reference documentation
-- Community-contributed examples
-
----
-
-## Compare with Other Solutions
-
-| Feature | Abacus.AI | OpenAI API | AWS Bedrock | Azure OpenAI |
-|---------|-----------|------------|-------------|--------------|
-| **Multiple Models** | ✅ 30+ | ❌ OpenAI only | ✅ Limited | ❌ OpenAI only |
-| **Custom Training** | ✅ Yes | ✅ Fine-tuning | ✅ Limited | ✅ Fine-tuning |
-| **Agent Builder** | ✅ Visual | ❌ Code only | ❌ Code only | ❌ Code only |
-| **AutoML** | ✅ Yes | ❌ No | ❌ No | ❌ No |
-| **One Platform** | ✅ Complete | ❌ API only | ⚠️ AWS suite | ⚠️ Azure suite |
-
-
-
-
----
-
-<div style="text-align: center; margin-top: 3rem; padding: 2rem; background: var(--vp-c-bg-soft); border-radius: 8px;">
-  <h3 style="margin-top: 0;">Ready to Transform Your Business with AI?</h3>
-  <p>Start building with Abacus.AI today - no credit card required.</p>
-  <a href="https://abacus.ai" target="_blank" style="display: inline-block; margin-top: 1rem; padding: 0.75rem 2rem; background: var(--vp-c-brand-1); color: white; text-decoration: none; border-radius: 6px; font-weight: 600;">Get Started Free →</a>
-</div>
-
-<style>
-.platform-card,
-.feature-card {
-  padding: 1.5rem;
-  margin: 1.5rem 0;
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 8px;
-  background: var(--vp-c-bg-soft);
-}
-
-.feature-card {
-  background: var(--vp-c-bg-alt);
-}
-
-.platform-card strong,
-.feature-card strong {
-  color: var(--vp-c-brand-1);
-}
-</style>
-
+![AI Desktop](./abacus/desktop.webp)
