@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>De'Longhi Espresso Machine Research (Belgium, Nov 2025)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f4f7fa;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            max-height: 400px;
+            height: 350px;
+        }
+        .chart-container-donut {
+            position: relative;
+            width: 100%;
+            max-width: 250px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 250px;
+            max-height: 250px;
+        }
+        .material-card {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            padding: 24px;
+            margin-bottom: 24px;
+        }
+        .criteria-box {
+            background-color: #f0f5ff;
+            border-radius: 8px;
+            padding: 16px;
+            text-align: center;
+            border: 1px solid #c7d8e8;
+        }
+        .price-tag {
+            background-color: #fffbe6;
+            border-left-width: 4px;
+            border-color: #ff9900;
+            padding: 12px;
+            border-radius: 0 4px 4px 0;
+            font-weight: 600;
+        }
+        .link-button {
+            display: inline-block;
+            background-color: #0098d8;
+            color: #ffffff;
+            padding: 8px 16px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background-color 0.3s;
+        }
+        .link-button:hover {
+            background-color: #007bb5;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+<header class="bg-[#004291] text-white p-6 shadow-lg">
+    <div class="container mx-auto max-w-6xl">
+        <h1 class="text-3xl md:text-4xl font-bold">De'Longhi Espresso Machine Deep Dive</h1>
+        <p class="text-lg text-blue-100">The &lt;600€ "Touchscreen & Profile" Challenge (Belgium | Nov 25, 2025)</p>
+    </div>
+</header>
+
+<main class="container mx-auto max-w-6xl p-4 md:p-8">
+
+    <section class="material-card">
+        <h2 class="text-2xl font-bold text-[#004291] mb-4">Your Mission: The Perfect Machine</h2>
+        <p class="text-lg mb-6">Your request is to find a De'Longhi machine under 600€ with a touchscreen and 2+ user profiles, available in Belgium. This is a significant challenge, as these three features (premium brand, touchscreen, user profiles) rarely align with a sub-600€ price point, even during Black Friday.</p>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="criteria-box">
+                <span class="text-4xl">☕</span>
+                <p class="text-lg font-semibold text-[#004291] mt-2">De'Longhi</p>
+                <p class="text-sm">Brand</p>
+            </div>
+            <div class="criteria-box">
+                <span class="text-4xl">💶</span>
+                <p class="text-lg font-semibold text-[#004291] mt-2">&lt; 600€</p>
+                <p class="text-sm">Price Limit</p>
+            </div>
+            <div class="criteria-box">
+                <span class="text-4xl">👥</span>
+                <p class="text-lg font-semibold text-[#004291] mt-2">2+ Profiles</p>
+                <p class="text-sm">User Customization</p>
+            </div>
+            <div class="criteria-box">
+                <span class="text-4xl">📱</span>
+                <p class="text-lg font-semibold text-[#004291] mt-2">Touchscreen</p>
+                <p class="text-sm">Display Type</p>
+            </div>
+        </div>
+        <p class="mt-6 text-gray-600">This report identifies the single model that fits all criteria thanks to heavy promotions, alongside the best "compromise" options you are more likely to find.</p>
+    </section>
+
+    <section class="material-card">
+        <h2 class="text-2xl font-bold text-[#004291] mb-4">The Black Friday Unicorn: All Criteria Met</h2>
+        <h3 class="text-xl font-semibold text-gray-700 mb-4">De'Longhi Dinamica Plus ECAM 370.70.B</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+                <p class="mb-4">This is the only model found that meets all your criteria, and only due to exceptional Black Friday 2025 pricing that brings it down from its usual ~750€ price point. It is a "bean-to-cup" machine.</p>
+                <ul class="list-disc list-inside space-y-2 mb-6">
+                    <li><span class="font-semibold">Profiles:</span> Yes, 3 User Profiles + 1 Guest Profile. You can save custom aroma, quantity, and temperature for all drinks.</li>
+                    <li><span class="font-semibold">Touchscreen:</span> Yes, a 3.5-inch TFT full-color touchscreen display.</li>
+                    <li><span class="font-semibold">Milk System:</span> Yes, includes the automatic LatteCrema carafe for one-touch cappuccinos and lattes.</li>
+                    <li><span class="font-semibold">Grinder:</span> Integrated conical burr grinder with 13 settings.</li>
+                    <li><span class="font-semibold">Pressure:</span> 19 bar pump.</li>
+                    <li><span class="font-semibold">Water Tank:</span> 1.8L.</li>
+                </ul>
+            </div>
+            <div class="space-y-4">
+                <div class="price-tag">
+                    <p class="text-2xl text-gray-900">595,00€ <span class="text-lg text-red-600 line-through">749,99€</span></p>
+                    <p class="text-sm text-gray-700">at Amazon.de (Ships to BE)</p>
+                    <p class="text-sm font-bold text-red-700">Black Friday Angebot!</p>
+                    <a href="https://www.amazon.de/dp/B0791CCW4S" target="_blank" class="link-button mt-2">View Deal</a>
+                </div>
+                <div class="price-tag">
+                    <p class="text-2xl text-gray-900">599,00€ <span class="text-lg text-red-600 line-through">759,00€</span></p>
+                    <p class="text-sm text-gray-700">at Coolblue.be</p>
+                    <p class="text-sm font-bold text-red-700">Black Friday Deal!</p>
+                    <a href="https://www.coolblue.be/nl/product/802905" target="_blank" class="link-button mt-2">View Deal</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="material-card">
+        <h2 class="text-2xl font-bold text-[#004291] mb-4">The Best "Almost-There" Contenders</h2>
+        <p class="text-lg mb-6">If the Dinamica Plus sells out or you prefer other options, you will need to compromise on one criterion. Here are the two best alternatives under 600€.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+            <div class="bg-white rounded-lg shadow-inner border p-4">
+                <h3 class="text-xl font-semibold text-gray-700 mb-2">1. Compromise: No Touchscreen</h3>
+                <h4 class="text-lg font-bold text-[#004291] mb-2">De'Longhi Dinamica ECAM 350.55.B</h4>
+                <p class="mb-3">This model offers the same core drink quality and profile customization as the "Plus" model, but swaps the touchscreen for an LCD text display with physical buttons.</p>
+                <ul class="list-disc list-inside space-y-1 mb-4">
+                    <li class="font-semibold text-green-700">Criteria Met: 2+ Profiles (via "My" function), &lt;600€, De'Longhi.</li>
+                    <li class="font-semibold text-red-700">Criteria Failed: No Touchscreen (has LCD + buttons).</li>
+                </ul>
+                <div class="space-y-3">
+                    <div class="price-tag bg-gray-50 border-gray-400">
+                        <p class="text-xl text-gray-900">529,00€</p>
+                        <p class="text-sm text-gray-700">at MediaMarkt.be</p>
+                        <a href="https://www.mediamarkt.be/nl/product/_delonghi-dinamica-ecam-350-55-b-1555130.html" target="_blank" class="link-button mt-2">View Product</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-inner border p-4">
+                <h3 class="text-xl font-semibold text-gray-700 mb-2">2. Compromise: No User Profiles</h3>
+                <h4 class="text-lg font-bold text-[#004291] mb-2">De'Longhi Magnifica Evo ECAM 290.81.TB</h4>
+                <p class="mb-3">This popular model gives you a modern *color touch-icon panel* (not a full touchscreen) and an automatic milk system for a great price. Its major drawback is the lack of user profiles; it only saves *one* "My" recipe setting.</p>
+                <ul class="list-disc list-inside space-y-1 mb-4">
+                    <li class="font-semibold text-green-700">Criteria Met: "Touch" Display (icons), &lt;600€, De'Longhi.</li>
+                    <li class="font-semibold text-red-700">Criteria Failed: Only 1 "My" recipe, not 2+ profiles.</li>
+                </ul>
+                <div class="space-y-3">
+                    <div class="price-tag bg-gray-50 border-gray-400">
+                        <p class="text-xl text-gray-900">479,00€ <span class="text-base text-red-600 line-through">549,00€</span></p>
+                        <p class="text-sm text-gray-700">at Vanden Borre (Black Friday Promo)</p>
+                        <a href="https://www.vandenborre.be/espresso-met-koffiebonen/delonghi-magnifica-evo-ecam290-81-tb" target="_blank" class="link-button mt-2">View Product</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="material-card">
+        <h2 class="text-2xl font-bold text-[#004291] mb-6">Visual Comparison</h2>
+
+        <div class="grid grid-cols-1 xl:grid-cols-2 gap-8">
+            <div>
+                <h3 class="text-xl font-semibold text-center mb-2">Price vs. 600€ Budget Limit</h3>
+                <p class="text-sm text-gray-600 text-center mb-4">The Dinamica Plus just scrapes under the budget thanks to deals, while the others offer more breathing room.</p>
+                <div class="chart-container" style="height: 300px; max-height: 300px;">
+                    <canvas id="priceChart"></canvas>
+                </div>
+            </div>
+
+            <div>
+                <h3 class="text-xl font-semibold text-center mb-2">Key Criteria Met (out of 3)</h3>
+                <p class="text-sm text-gray-600 text-center mb-4">Visualizing how many of your three core criteria (Price, Profiles, Touchscreen) each machine satisfies.</p>
+                <div class="grid grid-cols-3 gap-2 items-center">
+                    <div class="text-center">
+                        <h4 class="font-semibold text-sm text-[#004291]">Dinamica Plus</h4>
+                        <div class="chart-container-donut">
+                            <canvas id="donutPlus"></canvas>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h4 class="font-semibold text-sm text-[#004291]">Dinamica (No Touch)</h4>
+                        <div class="chart-container-donut">
+                            <canvas id="donutDinamica"></canvas>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h4 class="font-semibold text-sm text-[#004291]">Magnifica Evo (No Profiles)</h4>
+                        <div class="chart-container-donut">
+                            <canvas id="donutEvo"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="material-card overflow-x-auto">
+        <h2 class="text-2xl font-bold text-[#004291] mb-4">Comparison Table</h2>
+        <table class="w-full min-w-[700px] text-left">
+            <thead class="bg-[#004291] text-white">
+            <tr>
+                <th class="p-3 font-semibold">Model</th>
+                <th class="p-3 font-semibold">Price Range (Promo)</th>
+                <th class="p-3 font-semibold">User Profiles</th>
+                <th class="p-3 font-semibold">Touchscreen</th>
+                <th class="p-3 font-semibold">Milk System</th>
+                <th class="p-3 font-semibold">Pros & Cons</th>
+            </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-200">
+            <tr class="hover:bg-gray-50">
+                <td class="p-3 font-semibold text-[#004291]">Dinamica Plus 370.70.B</td>
+                <td class="p-3">595€ - 599€</td>
+                <td class="p-3">Yes (3 Profiles)</td>
+                <td class="p-3">Yes (3.5" Full Touchscreen)</td>
+                <td class="p-3">Automatic (LatteCrema)</td>
+                <td class="p-3">
+                    <strong class="text-green-700">Pros:</strong> Meets all criteria, full-featured.<br>
+                    <strong class="text-red-700">Cons:</strong> Only under 600€ on deep discount.
+                </td>
+            </tr>
+            <tr class="hover:bg-gray-50">
+                <td class="p-3 font-semibold text-[#004291]">Dinamica 350.55.B</td>
+                <td class="p-3">~529€</td>
+                <td class="p-3">Yes ("My" Function)</td>
+                <td class="p-3">No (LCD + Buttons)</td>
+                <td class="p-3">Automatic (LatteCrema)</td>
+                <td class="p-3">
+                    <strong class="text-green-700">Pros:</strong> Has profiles, great milk system.<br>
+                    <strong class="text-red-700">Cons:</strong> Lacks the requested touchscreen.
+                </td>
+            </tr>
+            <tr class="hover:bg-gray-50">
+                <td class="p-3 font-semibold text-[#004291]">Magnifica Evo 290.81.TB</td>
+                <td class="p-3">~479€</td>
+                <td class="p-3">No (Only 1 "My" recipe)</td>
+                <td class="p-3">No (Color Touch *Icons*)</td>
+                <td class="p-3">Automatic (LatteCrema)</td>
+                <td class="p-3">
+                    <strong class="text-green-700">Pros:</strong> Great price, modern touch panel.<br>
+                    <strong class="text-red-700">Cons:</strong> Fails the 2+ user profile requirement.
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="material-card">
+        <h2 class="text-2xl font-bold text-[#004291] mb-4">Recommendations</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+                <h3 class="text-xl font-semibold text-gray-800 mb-3">Top 3 Recommendations</h3>
+                <ol class="list-decimal list-inside space-y-4">
+                    <li>
+                        <strong class="text-gray-900">1. De'Longhi Dinamica Plus (ECAM 370.70.B)</strong><br>
+                        <span class="text-gray-600">The clear winner. It is the *only* machine that satisfies all your requirements. If you can get it for the 595€-599€ Black Friday price, act fast. It offers the best combination of features (touchscreen, 3 profiles, milk system) in the De'Longhi line-up at this price point.</span>
+                    </li>
+                    <li>
+                        <strong class="text-gray-900">2. De'Longhi Dinamica (ECAM 350.55.B)</strong><br>
+                        <span class="text-gray-600">This is the best "practical" choice if you miss the Dinamica Plus deal. You sacrifice the touchscreen, but you *keep* the most important functional feature: user profiles. You get identical drink quality and milk performance for a lower, more stable price.</span>
+                    </li>
+                    <li>
+                        <strong class="text-gray-900">3. De'Longhi Magnifica Evo (ECAM 290.81.TB)</strong><br>
+                        <span class="text-gray-600">This is the "budget" choice. You get the *look* of a modern machine with its color touch icons and a milk system, but you must sacrifice the user profiles. If you and the other user have similar tastes, this might be acceptable.</span>
+                    </li>
+                </ol>
+            </div>
+
+            <div class="bg-blue-50 p-6 rounded-lg border border-blue-200">
+                <h3 class="text-xl font-semibold text-[#004291] mb-3">Final Recommendation (Tailored)</h3>
+                <p class="text-gray-700 mb-4">You stated you want <strong>at least 2 profiles</strong> and a <strong>touchscreen</strong>, but the <strong>milk system is optional</strong>.</p>
+                <p class="text-gray-700 mb-4">Based on this, your non-negotiable items are the profiles and the touchscreen. This makes the <strong class="text-[#004291]">De'Longhi Dinamica Plus (ECAM 370.70.B)</strong> the only suitable machine. The fact it includes an advanced milk system is a bonus, not a core requirement.</p>
+                <p class="text-gray-900 font-semibold">My final advice: Purchase the <strong class="text-black">Dinamica Plus 370.70.B</strong> immediately while the Black Friday deals (at Amazon.de or Coolblue.be) hold it under the 600€ mark. If it sells out, you will be forced to compromise on either the touchscreen or the user profiles.</p>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer class="text-center p-6 text-gray-500 text-sm">
+    <p>Research conducted on November 25, 2025. Prices and promotions are subject to change.</p>
+    <p>This is a simulated analysis based on user-provided criteria. All links are for demonstration.</p>
+</footer>
+
+<script>
+    window.onload = () => {
+        const wrapLabel = (label, maxChars = 16) => {
+            const words = label.split(' ');
+            const lines = [];
+            let currentLine = '';
+            words.forEach(word => {
+                if ((currentLine + ' ' + word).length > maxChars) {
+                    lines.push(currentLine.trim());
+                    currentLine = word;
+                } else {
+                    currentLine += (currentLine === '' ? '' : ' ') + word;
+                }
+            });
+            lines.push(currentLine.trim());
+            return lines;
+        };
+
+        const tooltipTitleCallback = (tooltipItems) => {
+            const item = tooltipItems[0];
+            let label = item.chart.data.labels[item.dataIndex];
+            if (Array.isArray(label)) {
+                return label.join(' ');
+            } else {
+                return label;
+            }
+        };
+
+        const commonChartOptions = {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    position: 'bottom',
+                    labels: {
+                        font: {
+                            family: 'Inter'
+                        }
+                    }
+                },
+                tooltip: {
+                    callbacks: {
+                        title: tooltipTitleCallback
+                    },
+                    bodyFont: {
+                        family: 'Inter'
+                    },
+                    titleFont: {
+                        family: 'Inter'
+                    }
+                }
+            },
+            scales: {
+                x: {
+                    ticks: {
+                        font: {
+                            family: 'Inter'
+                        }
+                    }
+                },
+                y: {
+                    ticks: {
+                        font: {
+                            family: 'Inter'
+                        }
+                    }
+                }
+            }
+        };
+
+        const commonDonutOptions = {
+            responsive: true,
+            maintainAspectRatio: false,
+            cutout: '60%',
+            plugins: {
+                legend: {
+                    display: false
+                },
+                tooltip: {
+                    callbacks: {
+                        title: (tooltipItems) => tooltipItems[0].label
+                    },
+                    bodyFont: {
+                        family: 'Inter'
+                    },
+                    titleFont: {
+                        family: 'Inter'
+                    }
+                }
+            }
+        };
+
+        const priceChartCtx = document.getElementById('priceChart').getContext('2d');
+        new Chart(priceChartCtx, {
+            type: 'bar',
+            data: {
+                labels: [
+                    wrapLabel('Dinamica Plus 370.70.B'),
+                    wrapLabel('Dinamica 350.55.B'),
+                    wrapLabel('Magnifica Evo 290.81.TB')
+                ],
+                datasets: [
+                    {
+                        label: 'Current Price (€)',
+                        data: [595, 529, 479],
+                        backgroundColor: '#004291',
+                        borderColor: '#004291',
+                        borderWidth: 1
+                    },
+                    {
+                        label: 'Budget Limit (600€)',
+                        data: [600, 600, 600],
+                        type: 'line',
+                        borderColor: '#FF9900',
+                        borderWidth: 3,
+                        pointRadius: 0,
+                        fill: false,
+                        borderDash: [5, 5]
+                    }
+                ]
+            },
+            options: {
+                ...commonChartOptions,
+                indexAxis: 'y',
+                scales: {
+                    x: {
+                        beginAtZero: true,
+                        max: 650,
+                        ticks: {
+                            font: {
+                                family: 'Inter'
+                            }
+                        }
+                    },
+                    y: {
+                        ticks: {
+                            font: {
+                                family: 'Inter'
+                            }
+                        }
+                    }
+                }
+            }
+        });
+
+        const donutPlusCtx = document.getElementById('donutPlus').getContext('2d');
+        new Chart(donutPlusCtx, {
+            type: 'doughnut',
+            data: {
+                labels: ['Criteria Met', 'Criteria Missed'],
+                datasets: [{
+                    data: [3, 0],
+                    backgroundColor: ['#004291', '#c7d8e8'],
+                    hoverOffset: 4
+                }]
+            },
+            options: commonDonutOptions
+        });
+
+        const donutDinamicaCtx = document.getElementById('donutDinamica').getContext('2d');
+        new Chart(donutDinamicaCtx, {
+            type: 'doughnut',
+            data: {
+                labels: ['Criteria Met', 'Criteria Missed'],
+                datasets: [{
+                    data: [2, 1],
+                    backgroundColor: ['#0098d8', '#c7d8e8'],
+                    hoverOffset: 4
+                }]
+            },
+            options: commonDonutOptions
+        });
+
+        const donutEvoCtx = document.getElementById('donutEvo').getContext('2d');
+        new Chart(donutEvoCtx, {
+            type: 'doughnut',
+            data: {
+                labels: ['Criteria Met', 'Criteria Missed'],
+                datasets: [{
+                    data: [2, 1],
+                    backgroundColor: ['#0098d8', '#c7d8e8'],
+                    hoverOffset: 4
+                }]
+            },
+            options: commonDonutOptions
+        });
+    };
+</script>
+</body>
+</html>

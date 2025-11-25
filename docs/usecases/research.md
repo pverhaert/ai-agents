@@ -1,0 +1,90 @@
+# Deep Research Agents
+
+Deep Research represents a significant shift from standard "Chatbots" to "Agentic AI." While a standard chatbot predicts the next word to give you a quick answer, a **Deep Research Agent** acts like a dedicated research assistant.
+
+When you give it a complex task, it doesn't answer immediately. Instead, it pauses to "think," creates a plan, browses dozens of websites, reads reviews, cross-references prices, and compiles a comprehensive report.
+
+## How It Works
+
+1.  **Strategy Phase**: The AI analyzes your prompt to understand the constraints (e.g., "Belgium," "Touchscreen," "Under €600").
+2.  **Data Gathering**: It actively browses the live internet. It visits manufacturer sites for specs and retailer sites (like Coolblue or Vanden Borre) for current pricing.
+3.  **Synthesis**: It filters out ads and irrelevant data, comparing the findings against your specific requirements.
+4.  **Reporting**: It generates a structured document with citations, ensuring the advice is based on real-time data, not training data from last year.
+
+
+
+## Try It Yourself: The "Shopping Assistant" Test
+
+To see the power of Deep Research, we need a prompt that is too difficult for a standard AI model. A standard model would likely hallucinate prices or recommend old models.
+
+Run this prompt in **Perplexity (Comet)**, **Grok**, or **Gemini**.
+
+::: tip 🛍️ Deep Research Prompt
+I want to buy a DeLonghi espresso machine and need a deep research comparison.
+
+**Requirements:**
+1. The machine must be from the brand **DeLonghi**.
+2. It must support **at least 2 user profiles** (for example, saving different coffee preferences for two people).
+3. It must have a **touchscreen display**.
+4. The **price must be below 600 EUR**.
+5. A milk system (milk frother, milk carafe, etc.) is **optional**, not required.
+6. Focus on **current prices in Belgian online shops**, for example well-known Belgian or EU sites that deliver to Belgium. Please make sure the prices reflect the **current period and any Black Friday or similar promotions** that are active right now.
+
+**Tasks:**
+1. Identify all DeLonghi espresso machines that meet the above requirements.
+2. For each model, provide:
+    - Full **model name** and **short description**
+    - **Key features** (grinder type, pressure, customisation options, size, water tank, etc.)
+    - Whether it has **2 or more profiles** and how they work
+    - Details about the **touchscreen** (size/quality if available)
+    - Whether it includes a **milk system** (and which type, if present)
+    - **Current price** (in EUR) from at least 2–3 Belgian or EU online shops that ship to Belgium
+    - Indication if the price includes a **Black Friday or special promotion** (if applicable)
+    - Links to the product pages
+
+3. Create a **comparison table** of all the shortlisted models with:
+    - Model name
+    - Price range (min–max)
+    - Number of profiles
+    - Touchscreen (Yes/No + notes)
+    - Milk system (None / Manual wand / Automatic carafe)
+    - Pros and cons short summary
+
+4. Based on this analysis, give:
+    - Your **top 3 recommendations** under 600 EUR, with a short explanation for each
+    - A final **recommendation tailored to a user in Belgium** who wants at least 2 profiles and a touchscreen but does not really need a milk system.
+
+Please use only **up-to-date information** and clearly state the **date of the prices** you found.
+:::
+
+### Why this prompt is challenging
+*   **Geographic Lock**: It forces the AI to ignore US/UK sites and look for Belgian retailers (Coolblue.be, Bol.com, Vanden Borre).
+*   **Feature Intersection**: Finding a machine with *User Profiles* AND *Touchscreen* under *€600* is difficult; these features are usually reserved for premium (€800+) models. The AI must filter strictly.
+*   **Live Pricing**: Prices change daily. The AI cannot rely on its memory; it *must* browse the web live.
+
+
+
+## Compare the Results
+
+We ran this prompt through the three leading research agents. Click the links below to see how each model handled the challenge. Notice how they differ in layout, sourcing, and price accuracy.
+
+- [**Grok Analysis**](./research/grok.md)
+- [**Perplexity Comet Analysis**](./research/perplexity.md)
+- [**Gemini Analysis**](./research/gemini.md)
+
+
+
+## Going Further: Gemini's "Artifacts"
+
+Deep Research isn't just about text. Advanced models like Gemini and Claude can create **interactive tools** based on their research.
+
+After Gemini completed the research report, we asked it to: *"Turn this comparison table into a fully functional HTML webpage that I can open in my browser."*
+
+Instead of just giving us text, it wrote code.
+
+### The Resulting Webpage
+Below is the actual webpage Gemini built from scratch based on the coffee machine data. It includes a responsive design and a clean comparison table.
+
+- **View the Artifact**: [DeLonghi.html](/DeLonghi.html)
+
+![Webpage generated by Gemini](./research/delongi_web.webp)

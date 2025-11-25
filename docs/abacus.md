@@ -93,6 +93,8 @@ You can create custom "Agents" that work for you even when you are asleep.
 
 ![Agents](./abacus/agents.webp)
 
+![Agents Result](./abacus/agents_result.webp)
+
 ### Deep Agent (Autonomous AI)
 
 The Deep Agent is a general-purpose assistant capable of multi-step reasoning.

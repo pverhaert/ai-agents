@@ -31,7 +31,12 @@ export default defineConfig({
                     }
                 ]
             },
-            {text: 'Use Cases', link: '/use-cases'},
+            {
+                text: 'Use Cases', items: [
+                    {text: 'AnythingLLM', link: '/usecases/anythingllm.md'},
+                    {text: 'Deep Research Agents', link: '/usecases/research.md'},
+                ]
+            },
             {text: 'Abacus (ChatLLM)', link: '/abacus'},
         ],
 
