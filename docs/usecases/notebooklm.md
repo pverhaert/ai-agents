@@ -8,7 +8,7 @@ for studying and learning.
 
 <div class="model-card">
 
-<img src="https://notebooklm.google/favicon.ico" alt="NotebookLM" class="model-icon" />
+<img src="https://notebooklm.google/_/static/branding/v4/light_mode/favicon/favicon.svg" alt="NotebookLM" class="model-icon" />
 
 **Developer**: Google Labs
 
@@ -24,6 +24,7 @@ It is famous for its "Audio Overview" feature, which turns your boring documents
   your PDF.
 - **Audio Overviews**: Generates a stunningly realistic "Deep Dive" podcast where two AI hosts banter and discuss your
   documents.
+- **Video Overviews**: Generates a realistic "Deep Dive" video of the selected documents.
 - **Study Guides**: Automatically turns your notes into FAQs, timelines, or briefing documents.
 - **Privacy**: Your data is used to answer your questions but is not used to train the public Google models.
 
@@ -60,3 +61,7 @@ It is famous for its "Audio Overview" feature, which turns your boring documents
 * **Action**: Copy-paste the notes into a source.
 * **Prompt**: "What are the conflicting opinions between the Marketing team and the Engineering team?"
 * **Result**: It cross-references the files to find specific disagreements within your internal notes.
+
+## Build with NotebookLM
+
+The podcast, the video overview, the infographic and the presentation on the [introduction page](/introduction/) of this course ;-)

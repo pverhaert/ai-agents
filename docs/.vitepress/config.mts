@@ -38,10 +38,10 @@ export default defineConfig({
                         text: 'Google', items: [
                             {text: 'Gemini', link: '/usecases/gemini.md'},
                             {text: 'AI Studio', link: '/usecases/aistudio.md'},
-                            {text: 'Notebook LM (*)', link: '/usecases/notebooklm.md'},
+                            {text: 'Notebook LM', link: '/usecases/notebooklm.md'},
                         ]
                     },
-                    {text: 'Custom AI Agents (*)', link: '/usecases/custom.md'},
+                    {text: 'Custom AI Agents', link: '/usecases/custom.md'},
                 ]
             },
             {text: 'Abacus (ChatLLM)', link: '/abacus'},
