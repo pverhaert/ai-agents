@@ -19,20 +19,20 @@ export default defineConfig({
                 text: 'Introduction', items: [
                     {text: 'From GenAI to AI Agents', link: '/introduction/'},
                     {text: 'AI Models', link: '/introduction/models'},
-                    {text: 'Benchmarks', link: '/introduction/benchmarks'},
+                    // {text: 'Benchmarks', link: '/introduction/benchmarks'},
+                    {text: 'AI Browsers', link: '/introduction/browsers'},
                     {
                         text: 'Benchmarks', items: [
                             {text: 'Intro', link: '/introduction/benchmarks_intro'},
-                            {text: '🏆 LM Arena (Chatbot Arena)', link: '/introduction/lmarena.md'},
                             {text: '🧠 AI IQ Test', link: '/introduction/iqtest.md'},
+                            {text: '🏆 LM Arena (Chatbot Arena)', link: '/introduction/lmarena.md'},
 
                         ]
                     }
                 ]
             },
-            {text: 'Introduction', link: '/introduction'},
-
             {text: 'Use Cases', link: '/use-cases'},
+            {text: 'Chat LLM (Abacus)', link: '/abacus'},
         ],
 
         /*sidebar: [
