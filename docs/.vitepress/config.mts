@@ -14,7 +14,7 @@ export default defineConfig({
         externalLinkIcon: true,
 
         nav: [
-            {text: 'Home', link: '/'},
+            {text: 'Home (*)', link: '/'},
             {
                 text: 'Introduction', items: [
                     {text: 'From GenAI to AI Agents', link: '/introduction/'},
@@ -26,7 +26,6 @@ export default defineConfig({
                             {text: 'How We Test Intelligence', link: '/introduction/benchmarks_intro'},
                             {text: '🧠 AI IQ Test', link: '/introduction/iqtest.md'},
                             {text: '🏆 LM Arena (Chatbot Arena)', link: '/introduction/lmarena.md'},
-
                         ]
                     }
                 ]
@@ -35,6 +34,14 @@ export default defineConfig({
                 text: 'Use Cases', items: [
                     {text: 'AnythingLLM', link: '/usecases/anythingllm.md'},
                     {text: 'Deep Research Agents', link: '/usecases/research.md'},
+                    {
+                        text: 'Google', items: [
+                            {text: 'Gemini', link: '/usecases/gemini.md'},
+                            {text: 'AI Studio', link: '/usecases/aistudio.md'},
+                            {text: 'Notebook LM (*)', link: '/usecases/notebooklm.md'},
+                        ]
+                    },
+                    {text: 'Custom AI Agents (*)', link: '/usecases/custom.md'},
                 ]
             },
             {text: 'Abacus (ChatLLM)', link: '/abacus'},
