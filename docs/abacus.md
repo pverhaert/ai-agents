@@ -27,6 +27,8 @@ outputs.
 🔗 [Visit Abacus.AI](https://abacus.ai/)  
 🔗 [Create an account](https://chatllm.abacus.ai/WrZczXnKpV) (Referrer link)
 
+![Abacus AI](./abacus/abacus.webp)
+
 </div>
 
 #### Abacus Subscription vs. Others
