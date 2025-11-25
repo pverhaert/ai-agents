@@ -12,7 +12,9 @@ hero:
     - theme: alt
       text: View on GitHub
       link: https://github.com/pverhaert/ai-agents
-
+  image:
+    src: /qrcode.webp
+    alt: QR_code
 features:
   - icon: 🚀
     title: Introduction
