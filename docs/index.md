@@ -46,8 +46,3 @@ features:
 ---
 
 
-### Get Started Today
-
-Ready to explore the world of AI agents and tools? Start with our [Popular AI Models](/introduction/models) guide or jump straight
-to [Use Cases](/use-cases) to see AI in action.
-
