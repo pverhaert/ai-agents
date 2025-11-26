@@ -39,6 +39,7 @@ export default defineConfig({
                             {text: 'Gemini', link: '/usecases/gemini.md'},
                             {text: 'AI Studio', link: '/usecases/aistudio.md'},
                             {text: 'Notebook LM', link: '/usecases/notebooklm.md'},
+                            {text: 'Labs', link: 'https://labs.google/'},
                         ]
                     },
                     {text: 'Custom AI Agents', link: '/usecases/custom.md'},
